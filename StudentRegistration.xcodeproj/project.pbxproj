@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8068C7E4CCE646402DC6DA66 /* Pods_StudentRegistration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5D8DB62EDA941F3F32FC64 /* Pods_StudentRegistration.framework */; };
+		CC1554E321B05FDC00CD0720 /* StudentVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1554E221B05FDC00CD0720 /* StudentVO.swift */; };
+		CC1554E521B060BA00CD0720 /* AdminVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1554E421B060BA00CD0720 /* AdminVO.swift */; };
 		CC307C2021AC467C0021ADED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC307C1F21AC467C0021ADED /* AppDelegate.swift */; };
 		CC307C2221AC467C0021ADED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC307C2121AC467C0021ADED /* ViewController.swift */; };
 		CC307C2521AC467C0021ADED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC307C2321AC467C0021ADED /* Main.storyboard */; };
 		CC307C2721AC467D0021ADED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC307C2621AC467D0021ADED /* Assets.xcassets */; };
 		CC307C2A21AC467D0021ADED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC307C2821AC467D0021ADED /* LaunchScreen.storyboard */; };
+		CC7DA86021B2166100C78351 /* StudentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7DA85F21B2166100C78351 /* StudentsListViewController.swift */; };
+		CC7DA86321B216F200C78351 /* StudentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7DA86121B216F200C78351 /* StudentTableViewCell.swift */; };
+		CC7DA86421B216F200C78351 /* StudentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7DA86221B216F200C78351 /* StudentTableViewCell.xib */; };
+		CCED023521AEFBFB00E7D930 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCED023421AEFBFB00E7D930 /* GoogleService-Info.plist */; };
+		CCED023721AF022400E7D930 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCED023621AF022400E7D930 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34DF11AC6928D279C846ED50 /* Pods-StudentRegistration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentRegistration.release.xcconfig"; path = "Pods/Target Support Files/Pods-StudentRegistration/Pods-StudentRegistration.release.xcconfig"; sourceTree = "<group>"; };
+		A3632CF914D93F98DA989E50 /* Pods-StudentRegistration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentRegistration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StudentRegistration/Pods-StudentRegistration.debug.xcconfig"; sourceTree = "<group>"; };
+		CC1554E221B05FDC00CD0720 /* StudentVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentVO.swift; sourceTree = "<group>"; };
+		CC1554E421B060BA00CD0720 /* AdminVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminVO.swift; sourceTree = "<group>"; };
 		CC307C1C21AC467C0021ADED /* StudentRegistration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentRegistration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC307C1F21AC467C0021ADED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC307C2121AC467C0021ADED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,12 @@
 		CC307C2621AC467D0021ADED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC307C2921AC467D0021ADED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC307C2B21AC467D0021ADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7DA85F21B2166100C78351 /* StudentsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsListViewController.swift; sourceTree = "<group>"; };
+		CC7DA86121B216F200C78351 /* StudentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewCell.swift; sourceTree = "<group>"; };
+		CC7DA86221B216F200C78351 /* StudentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentTableViewCell.xib; sourceTree = "<group>"; };
+		CCED023421AEFBFB00E7D930 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CCED023621AF022400E7D930 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FD5D8DB62EDA941F3F32FC64 /* Pods_StudentRegistration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudentRegistration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8068C7E4CCE646402DC6DA66 /* Pods_StudentRegistration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37F3750988E69DFBA1236115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD5D8DB62EDA941F3F32FC64 /* Pods_StudentRegistration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC307C1321AC467C0021ADED = {
 			isa = PBXGroup;
 			children = (
 				CC307C1E21AC467C0021ADED /* StudentRegistration */,
 				CC307C1D21AC467C0021ADED /* Products */,
+				E927C4D5FBAC234D9B7DF973 /* Pods */,
+				37F3750988E69DFBA1236115 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +83,30 @@
 		CC307C1E21AC467C0021ADED /* StudentRegistration */ = {
 			isa = PBXGroup;
 			children = (
+				CCED023421AEFBFB00E7D930 /* GoogleService-Info.plist */,
 				CC307C1F21AC467C0021ADED /* AppDelegate.swift */,
 				CC307C2121AC467C0021ADED /* ViewController.swift */,
 				CC307C2321AC467C0021ADED /* Main.storyboard */,
 				CC307C2621AC467D0021ADED /* Assets.xcassets */,
 				CC307C2821AC467D0021ADED /* LaunchScreen.storyboard */,
 				CC307C2B21AC467D0021ADED /* Info.plist */,
+				CCED023621AF022400E7D930 /* RegisterViewController.swift */,
+				CC1554E221B05FDC00CD0720 /* StudentVO.swift */,
+				CC1554E421B060BA00CD0720 /* AdminVO.swift */,
+				CC7DA85F21B2166100C78351 /* StudentsListViewController.swift */,
+				CC7DA86121B216F200C78351 /* StudentTableViewCell.swift */,
+				CC7DA86221B216F200C78351 /* StudentTableViewCell.xib */,
 			);
 			path = StudentRegistration;
+			sourceTree = "<group>";
+		};
+		E927C4D5FBAC234D9B7DF973 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3632CF914D93F98DA989E50 /* Pods-StudentRegistration.debug.xcconfig */,
+				34DF11AC6928D279C846ED50 /* Pods-StudentRegistration.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC307C2E21AC467D0021ADED /* Build configuration list for PBXNativeTarget "StudentRegistration" */;
 			buildPhases = (
+				3CB0CA98F9F48DF1A0089026 /* [CP] Check Pods Manifest.lock */,
 				CC307C1821AC467C0021ADED /* Sources */,
 				CC307C1921AC467C0021ADED /* Frameworks */,
 				CC307C1A21AC467C0021ADED /* Resources */,
+				06A0FE5B876AD97662D66A0F /* [CP] Embed Pods Frameworks */,
+				D1E54F4638AA034F7612CB69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,19 +171,115 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC307C2A21AC467D0021ADED /* LaunchScreen.storyboard in Resources */,
+				CCED023521AEFBFB00E7D930 /* GoogleService-Info.plist in Resources */,
 				CC307C2721AC467D0021ADED /* Assets.xcassets in Resources */,
 				CC307C2521AC467C0021ADED /* Main.storyboard in Resources */,
+				CC7DA86421B216F200C78351 /* StudentTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06A0FE5B876AD97662D66A0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StudentRegistration/Pods-StudentRegistration-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudentRegistration/Pods-StudentRegistration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CB0CA98F9F48DF1A0089026 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudentRegistration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1E54F4638AA034F7612CB69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StudentRegistration/Pods-StudentRegistration-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StudentRegistration/Pods-StudentRegistration-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC307C1821AC467C0021ADED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC7DA86021B2166100C78351 /* StudentsListViewController.swift in Sources */,
+				CC1554E521B060BA00CD0720 /* AdminVO.swift in Sources */,
+				CCED023721AF022400E7D930 /* RegisterViewController.swift in Sources */,
 				CC307C2221AC467C0021ADED /* ViewController.swift in Sources */,
+				CC7DA86321B216F200C78351 /* StudentTableViewCell.swift in Sources */,
+				CC1554E321B05FDC00CD0720 /* StudentVO.swift in Sources */,
 				CC307C2021AC467C0021ADED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +424,11 @@
 		};
 		CC307C2F21AC467D0021ADED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3632CF914D93F98DA989E50 /* Pods-StudentRegistration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = StudentRegistration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +443,11 @@
 		};
 		CC307C3021AC467D0021ADED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34DF11AC6928D279C846ED50 /* Pods-StudentRegistration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = StudentRegistration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
